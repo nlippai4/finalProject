@@ -1,0 +1,84 @@
+# ================= RAW DATA ================== #
+
+# FASTQ / sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# BAM / alignment files
+*.bam
+*.bai
+*.sam
+
+# CellRanger full outputs
+cellranger_output/
+outs/
+*_cellranger/
+
+# Mapped BAMs
+possorted_genome_bam.bam
+
+
+# ============= GENOTYPE DEMULTIPLEXING =============== #
+
+
+# cellSNP outputs
+cellSNP/
+cellSNP.cells.vcf*
+*.cells.vcf*
+*.pileup.tsv*
+*.mtx
+*.vcf.gz
+*.vcf.gz.tbi
+
+# vireo outputs
+vireo/
+*_vireo/
+donor_ids.tsv
+doublet_ids.tsv
+prob_singlet.tsv
+prob_doublet.tsv
+
+# ============= LARGE INTERMEDIATES ========== #
+
+# Seurat objects 
+*.rds
+*.RDS
+*.h5
+*.h5ad
+*.loom
+
+# Integrated objects
+integrated_*.rds
+
+# Sparse matrices
+matrix.mtx
+barcodes.tsv
+features.tsv
+
+# ================= RESULTS =================== #
+
+# Auto-generated figures
+*.png
+*.pdf
+*.svg
+*.jpeg
+*.jpg
+
+# QC reports
+*_qc.html
+*_report.html
+
+# Logs
+*.log
+*.out
+*.err
+slurm-*.out
+
+# ============== SCRATCH / HPC =============== #
+
+scratch/
+tmp/
+temp/
+*.tmp
