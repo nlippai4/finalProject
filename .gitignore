@@ -12,33 +12,125 @@
 *.sam
 
 # CellRanger full outputs
-cellranger_output/
-outs/
-*_cellranger/
+results/
+01_cellranger/
+clone1/
+*
+
+results/
+01_cellranger/
+clone2/
+*
+
+results/
+01_cellranger/
+clone3/
+*
+
+results/
+01_cellranger/
+clone4/
+*
 
 # Mapped BAMs
 possorted_genome_bam.bam
 
+# Large reference transcriptome
+reference/
+refdata*
+
 
 # ============= GENOTYPE DEMULTIPLEXING =============== #
 
+# VCFs
+vcf/
+filtered/
+*.vcf*
+
+vcf/
+merge/
+*.vcf*
+
+vcf/
+original/
+*.vcf*
+
+vcf/
+subset/
+clone1/
+*.vcf*
+
+vcf/
+subset/
+clone2/
+*.vcf*
+
+vcf/
+subset/
+clone3/
+*.vcf*
+
+vcf/
+subset/
+clone4/
+*.vcf*
 
 # cellSNP outputs
-cellSNP/
-cellSNP.cells.vcf*
-*.cells.vcf*
-*.pileup.tsv*
+
+results/
+02_cellsnp/
+clone1/
+*vcf*
+*.tsv
 *.mtx
-*.vcf.gz
-*.vcf.gz.tbi
+
+results/
+02_cellsnp/
+clone2/
+*vcf*
+*.tsv
+*.mtx
+
+results/
+02_cellsnp/
+clone3/
+*vcf*
+*.tsv
+*.mtx
+
+results/
+02_cellsnp/
+clone4/
+*vcf*
+*.tsv
+*.mtx
 
 # vireo outputs
-vireo/
-*_vireo/
-donor_ids.tsv
-doublet_ids.tsv
-prob_singlet.tsv
-prob_doublet.tsv
+
+results/
+03_vireo/
+clone1/
+*.tsv*
+*.pdf
+
+results/
+03_vireo/
+clone2/
+*.tsv*
+*.pdf
+
+results/
+03_vireo/
+clone3/
+*.tsv*
+*.pdf
+
+results/
+03_vireo/
+clone4/
+*.tsv*
+*.pdf
+
 
 # ============= LARGE INTERMEDIATES ========== #
 
