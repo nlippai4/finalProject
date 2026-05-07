@@ -1,8 +1,0 @@
-[I::main] start time: 2026-04-24 23:56:00
-[E::check_args] could not read barcode file '../../results/01_cellranger/clone1/outs/filtered_feature_bc_matrix/barcodes.tsv'
-[E::main] error global settings
-[E::main] Quiting...
-[I::main] Version: 1.2.3 (htslib 1.22.1)
-[I::main] CMD: cellsnp-lite -s ../../results/01_cellranger/clone1/outs/possorted_genome_bam.bam -b ../../results/01_cellranger/clone1/outs/filtered_feature_bc_matrix/barcodes.tsv -O ../../results/02_cellsnp_pooled/clone1 -R ../../vcf/merge/all_strains_merged.vcf.gz -p 10 --minMAF 0.1 --minCOUNT 20 --gzip
-[I::main] end time: 2026-04-24 23:56:00
-[I::main] time spent: 0 seconds.
