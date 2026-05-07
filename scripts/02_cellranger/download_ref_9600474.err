@@ -1,0 +1,16 @@
+Thank you for using cellranger. To help us improve our product,
+anonymized telemetry data has been collected and sent to 10X Genomics.
+This data helps us understand usage patterns, diagnose issues,
+and prioritize improvements.
+
+You can inspect the telemetry metrics sent by looking in
+/home/FCAM/nlippai/.cache/tenx/telemetry/cellranger/cellranger-9.0.1
+
+For more details on what data is collected and how it's used, please visit
+https://10xgen.com/pipeline-telemetry
+
+You can disable telemetry at any time by running the following command:
+	cellranger telemetry disable
+
+
+Could not find a 10x cloud token in the default user directory.  In order to enable cell annotation, run cellranger cloud auth setup, or please supply a --tenx-cloud-token-path argument.

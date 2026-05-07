@@ -1,0 +1,5 @@
+2026-04-24T20:52:21 fastq-dump.3.0.5 err: name not found while resolving query within virtual file system module - failed to resolve accession '8' - Cannot resolve accession ( 404 )
+2026-04-24T20:52:21 fastq-dump.3.0.5 err: name not found while resolving query within virtual file system module - failed to resolve accession 'off' - Cannot resolve accession ( 404 )
+2026-04-24T20:52:21 fastq-dump.3.0.5 err: param incorrect while reading argument list within application support module - --threads
+fastq-dump quit with error code 1
+pigz: skipping: /home/FCAM/nlippai/ISG/finalProject/rawdata/clone3/SRR29176459_*.fastq does not exist

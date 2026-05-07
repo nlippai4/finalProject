@@ -1,0 +1,16 @@
+[vireo] Loading cell folder ...
+[vireo] Loading donor VCF file ...
+[vireo] 1981672 out 1981672 variants matched to donor VCF
+[vireo] Demultiplex 31487 cells to 4 donors with 1981672 variants.
+[vireo] lower bound ranges [-147060225.7, -147060225.7, -147060225.7]
+[vireo] allelic rate mean and concentrations:
+[[0.054 0.318 0.43 ]]
+[[2.20020345e+08 8.48817490e+06 1.81152831e+08]]
+[vireo] donor size before removing doublets:
+donor0	donor1	donor2	donor3
+5922	7665	8552	9347
+[vireo] final donor size:
+CAST_EiJ	MOLF_EiJ	PWK_PhJ	SPRET_EiJ	doublet	unassigned
+4281	6047	6246	6923	7664	326
+[vireo] All done: 12 min 9.2 sec
+

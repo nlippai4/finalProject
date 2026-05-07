@@ -1,0 +1,9 @@
+2026-04-24T21:10:10 prefetch.3.0.5: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.
+2026-04-24T21:10:10 prefetch.3.0.5: 1) Downloading 'SRR29176458'...
+2026-04-24T21:10:10 prefetch.3.0.5: SRA Normalized Format file is being retrieved, if this is different from your preference, it may be due to current file availability.
+2026-04-24T21:10:10 prefetch.3.0.5:  Downloading via HTTPS...
+2026-04-24T21:15:11 prefetch.3.0.5 err: unknown while destroying file within file system module - unknown system error 'No space left on device(28)'
+2026-04-24T21:15:11 prefetch.3.0.5 int: unknown while destroying file within file system module - Cannot Release(/home/FCAM/nlippai/ISG/finalProject/rawdata/sraCache/SRR29176458/SRR29176458.sra.tmp)
+2026-04-24T21:15:11 prefetch.3.0.5 int: range excessive while releasing file within file system module - Cannot Release(/home/FCAM/nlippai/ISG/finalProject/rawdata/sraCache/SRR29176458/SRR29176458.sra.tmp)
+2026-04-24T21:15:11 prefetch.3.0.5:  HTTPS download failed
+2026-04-24T21:15:11 prefetch.3.0.5: 1) failed to download 'SRR29176458': RC(rcFS,rcFile,rcDestroying,rcNoObj,rcUnknown)

@@ -1,0 +1,2 @@
+slurmstepd: error: *** JOB 1998914 ON mantis-009 CANCELLED AT 2026-04-28T20:47:01 ***
+slurmstepd: error: Detected 1 oom_kill event in StepId=1998914.batch. Some of the step tasks have been OOM Killed.
