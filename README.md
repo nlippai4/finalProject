@@ -20,6 +20,14 @@ Organism: Mus Musculus
 
 Sequencing Type: Paired-end single cell RNA seq 
 
+## Resources for project reproducibility
+
+Mouse Genomes Project VCFs: https://www.mousegenomes.org/snps-indels/
+
+Cellsnp-lite manual: https://cellsnp-lite.readthedocs.io/en/latest/main/manual.html#mode-1-pileup-with-given-snps
+
+Vireo manual: https://demultiplexing-doublet-detecting-docs.readthedocs.io/en/latest/Vireo.html
+
 ## Directory Structure
 
 /rawdata -> directory in which raw fastq files should be downloaded 
