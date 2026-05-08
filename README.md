@@ -24,6 +24,8 @@ Sequencing Type: Paired-end single cell RNA seq
 
 /rawdata -> directory in which raw fastq files should be downloaded 
 
+/qc -> directory for fastqc results (note: I ran fastqc on a separate server using fastqc "filename.fastq"
+
 /reference -> mus musculus reference transcriptome
 
 /scripts -> data downloading, mapping, demultiplexing scripts
@@ -43,7 +45,8 @@ Sequencing Type: Paired-end single cell RNA seq
 
 ## Pipeline schematic
 
-<img width="1086" height="502" alt="image" src="https://github.com/user-attachments/assets/678404d0-19af-47f4-9140-27d78f860134" />
+
+<img width="1111" height="507" alt="image" src="https://github.com/user-attachments/assets/3597c9ee-1e17-4e87-bff6-dd7ad9d42821" />
 
  
     
