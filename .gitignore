@@ -35,9 +35,7 @@ clone4/
 # Mapped BAMs
 possorted_genome_bam.bam
 
-# Large reference transcriptome
-reference/
-refdata*
+# Only keep reference directory as placeholder
 
 reference/*
 !reference/.gitkeep
