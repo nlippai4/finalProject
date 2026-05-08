@@ -39,6 +39,8 @@ possorted_genome_bam.bam
 reference/
 refdata*
 
+reference/*
+!reference/.gitkeep
 
 # ============= GENOTYPE DEMULTIPLEXING =============== #
 
