@@ -40,14 +40,34 @@ outs/
 
 # ============= GENOTYPE DEMULTIPLEXING =============== #
 
-# VCFs
-vcf/filtered/
-vcf/merge/
-vcf/original/
-vcf/subset/clone1/*.vcf*
-vcf/subset/clone2/*.vcf*
-vcf/subset/clone3/*.vcf*
-vcf/subset/clone4/*.vcf*
+# VCFs: keep directory structure, ignore VCF contents
+vcf/filtered/*
+!vcf/filtered/.gitkeep
+
+vcf/merge/*
+!vcf/merge/.gitkeep
+
+vcf/original/*
+!vcf/original/.gitkeep
+
+vcf/subset/*
+!vcf/subset/.gitkeep
+!vcf/subset/clone1/
+!vcf/subset/clone2/
+!vcf/subset/clone3/
+!vcf/subset/clone4/
+
+vcf/subset/clone1/*
+!vcf/subset/clone1/.gitkeep
+
+vcf/subset/clone2/*
+!vcf/subset/clone2/.gitkeep
+
+vcf/subset/clone3/*
+!vcf/subset/clone3/.gitkeep
+
+vcf/subset/clone4/*
+!vcf/subset/clone4/.gitkeep
 
 
 # cellSNP outputs
