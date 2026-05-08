@@ -117,6 +117,83 @@ features.tsv
 slurm-*.out
 
 
+
+# ============= RESULTS PLACEHOLDERS ============= #
+
+# Keep top-level results directory
+results/*
+!results/.gitkeep
+!results/01_cellranger/
+!results/02_cellsnp/
+!results/03_vireo/
+
+
+# ---------- CellRanger outputs ---------- #
+
+results/01_cellranger/*
+!results/01_cellranger/.gitkeep
+!results/01_cellranger/clone1/
+!results/01_cellranger/clone2/
+!results/01_cellranger/clone3/
+!results/01_cellranger/clone4/
+
+results/01_cellranger/clone1/*
+!results/01_cellranger/clone1/.gitkeep
+
+results/01_cellranger/clone2/*
+!results/01_cellranger/clone2/.gitkeep
+
+results/01_cellranger/clone3/*
+!results/01_cellranger/clone3/.gitkeep
+
+results/01_cellranger/clone4/*
+!results/01_cellranger/clone4/.gitkeep
+
+
+# ---------- cellSNP outputs ---------- #
+
+results/02_cellsnp/*
+!results/02_cellsnp/.gitkeep
+!results/02_cellsnp/clone1/
+!results/02_cellsnp/clone2/
+!results/02_cellsnp/clone3/
+!results/02_cellsnp/clone4/
+
+results/02_cellsnp/clone1/*
+!results/02_cellsnp/clone1/.gitkeep
+
+results/02_cellsnp/clone2/*
+!results/02_cellsnp/clone2/.gitkeep
+
+results/02_cellsnp/clone3/*
+!results/02_cellsnp/clone3/.gitkeep
+
+results/02_cellsnp/clone4/*
+!results/02_cellsnp/clone4/.gitkeep
+
+
+# ---------- Vireo outputs ---------- #
+
+results/03_vireo/*
+!results/03_vireo/.gitkeep
+!results/03_vireo/clone1/
+!results/03_vireo/clone2/
+!results/03_vireo/clone3/
+!results/03_vireo/clone4/
+
+results/03_vireo/clone1/*
+!results/03_vireo/clone1/.gitkeep
+
+results/03_vireo/clone2/*
+!results/03_vireo/clone2/.gitkeep
+
+results/03_vireo/clone3/*
+!results/03_vireo/clone3/.gitkeep
+
+results/03_vireo/clone4/*
+!results/03_vireo/clone4/.gitkeep
+
+
 # ============== SCRATCH / HPC =============== #
 
 scratch/
