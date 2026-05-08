@@ -14,37 +14,38 @@ BioProject: PRJNA1116224
 
 SRA Study: SRP509828
 
-SRR Runs (4): SRR29176487-SRR29176490
+GEO accession number: GSE268332
 
 Organism: Mus Musculus
 
 Sequencing Type: Paired-end single cell RNA seq 
 
-Data size (GB): 46.6GB
-
-Bases: 162.9G
-
 ## Directory Structure
 
-/genomes -> mus musculus genome info
+/rawdata -> directory in which raw fastq files should be downloaded 
 
-/scripts -> data downloading, mapping, demultiplexing, single cell analysis scripts
+/reference -> mus musculus reference transcriptome
+
+/scripts -> data downloading, mapping, demultiplexing scripts
 
 /vcf -> VCF info for each inbred mouse strain, to be used for demultiplexing
+
+/jupyter_lab -> jupyter lab notebook and accessory files for single-cell analyses
 
 ### /results/
 
     01_cellranger -> raw alignment, gene counting output
   
-    02_cellsnp_vireo -> genome demultiplexing results
+    02_cellsnp -> snp pileup for variant-based demultiplexing
   
-    03_seurat -> seurat objects
-  
-    04_umaps -> embedding visualizations 
-  
-    05_markers -> differential expression results 
-  
-    06_figures -> plots to be submitted for final project credit
+    03_vireo -> donor strain inference results based on cellsnp-lite output
+
+
+## Pipeline schematic
+
+<img width="1086" height="502" alt="image" src="https://github.com/user-attachments/assets/678404d0-19af-47f4-9140-27d78f860134" />
+
+ 
     
   
   
