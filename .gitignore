@@ -35,8 +35,8 @@ clone4/
 # Mapped BAMs
 possorted_genome_bam.bam
 
-# Only keep reference directory as placeholder
-
+# Allow reference placeholder directory/file
+!reference/
 reference/*
 !reference/.gitkeep
 
