@@ -10,131 +10,58 @@
 *.bam
 *.bai
 *.sam
-
-# CellRanger full outputs
-results/
-01_cellranger/
-clone1/
-*
-
-results/
-01_cellranger/
-clone2/
-*
-
-results/
-01_cellranger/
-clone3/
-*
-
-results/
-01_cellranger/
-clone4/
-*
+*.bai
 
 # Mapped BAMs
 possorted_genome_bam.bam
 
-# Allow reference placeholder directory/file
-!reference/
+# Raw data: keep directory placeholder only
+rawdata/*
+!rawdata/.gitkeep
+
+
+# ================= REFERENCE ================= #
+
+# Large reference transcriptome/genome files
 reference/*
 !reference/.gitkeep
+
+refdata*
+
+
+# ============= CELLRANGER OUTPUTS ============= #
+
+# Ignore full CellRanger outputs
+results/01_cellranger/
+results/*/01_cellranger/
+*_cellranger/
+outs/
+
 
 # ============= GENOTYPE DEMULTIPLEXING =============== #
 
 # VCFs
-vcf/
-filtered/
-*.vcf*
+vcf/filtered/
+vcf/merge/
+vcf/original/
+vcf/subset/clone1/*.vcf*
+vcf/subset/clone2/*.vcf*
+vcf/subset/clone3/*.vcf*
+vcf/subset/clone4/*.vcf*
 
-vcf/
-merge/
-*.vcf*
-
-vcf/
-original/
-*.vcf*
-
-vcf/
-subset/
-clone1/
-*.vcf*
-
-vcf/
-subset/
-clone2/
-*.vcf*
-
-vcf/
-subset/
-clone3/
-*.vcf*
-
-vcf/
-subset/
-clone4/
-*.vcf*
 
 # cellSNP outputs
+results/02_cellsnp/
+results/02_cellsnp_pooled/
 
-results/
-02_cellsnp/
-clone1/
-*vcf*
-*.tsv
-*.mtx
-
-results/
-02_cellsnp/
-clone2/
-*vcf*
-*.tsv
-*.mtx
-
-results/
-02_cellsnp/
-clone3/
-*vcf*
-*.tsv
-*.mtx
-
-results/
-02_cellsnp/
-clone4/
-*vcf*
-*.tsv
-*.mtx
 
 # vireo outputs
-
-results/
-03_vireo/
-clone1/
-*.tsv*
-*.pdf
-
-results/
-03_vireo/
-clone2/
-*.tsv*
-*.pdf
-
-results/
-03_vireo/
-clone3/
-*.tsv*
-*.pdf
-
-results/
-03_vireo/
-clone4/
-*.tsv*
-*.pdf
+results/03_vireo/
 
 
 # ============= LARGE INTERMEDIATES ========== #
 
-# Seurat objects 
+# Seurat / AnnData / large objects
 *.rds
 *.RDS
 *.h5
@@ -148,6 +75,7 @@ integrated_*.rds
 matrix.mtx
 barcodes.tsv
 features.tsv
+
 
 # ================= RESULTS =================== #
 
@@ -167,6 +95,7 @@ features.tsv
 *.out
 *.err
 slurm-*.out
+
 
 # ============== SCRATCH / HPC =============== #
 
